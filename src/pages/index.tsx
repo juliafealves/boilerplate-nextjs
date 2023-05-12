@@ -6,12 +6,9 @@ import styles from '../styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 type Props = {
-  title: string;
+  title: string
 }
-
-const foo = 'teste';
-
-export default function Home({title = 'React Avanćado'}: Props) {
+export default function Home({ title = 'React Avanćado' }: Props) {
   return (
     <>
       <Head>
